@@ -42,7 +42,7 @@ defmodule Coherence.Mixfile do
       {:uuid, "~> 1.0"},
       {:phoenix_swoosh, "~> 0.2"},
       {:timex, "~> 3.1"},
-      {:timex_ecto, "~> 3.2"},
+      {:timex_ecto, github: "bitwalker/timex_ecto"},
       {:floki, "~> 0.8", only: :test},
       {:ex_doc, "~> 0.16", only: :dev},
       {:earmark, "~> 1.2", only: :dev, override: true},
